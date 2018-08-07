@@ -6,7 +6,7 @@ struct UserViewData{
     let age: String
 }
 
-protocol UserView: NSObjectProtocol {
+protocol UserView: class {
     func startLoading()
     func finishLoading()
     func setUsers(_ users: [UserViewData])

@@ -6,13 +6,13 @@ class UserServiceMock: UserService {
     init(users: [User]) {
         self.users = users
     }
-    override func getUsers(_ callBack: @escaping ([User]) -> Void) {
-        callBack(users)
+    override func getUsers(_ callBack: @escaping ([User], Error?) -> Void) {
+        callBack(users, nil)
     }
 
 }
 
-class UserViewMock : NSObject, UserView{
+class UserViewMock: UserView {
     var setUsersCalled = false
     var setEmptyUsersCalled = false
 
@@ -30,7 +30,10 @@ class UserViewMock : NSObject, UserView{
     func finishLoading() {
     }
 
+    func showError(error: Error) {
+    }
 }
+
 class UserPresenterTest: XCTestCase {
 
     let emptyUsersServiceMock = UserServiceMock(users:[User]())

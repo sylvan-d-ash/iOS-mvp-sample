@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5E1921DB21199874000AC2CC /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1921DA21199874000AC2CC /* NetworkError.swift */; };
+		5E1921DD211999DF000AC2CC /* UserPresenterSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1921DC211999DF000AC2CC /* UserPresenterSpec.swift */; };
 		9764C3A61C63D46E0089151E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9764C3A51C63D46E0089151E /* AppDelegate.swift */; };
 		9764C3A81C63D46E0089151E /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9764C3A71C63D46E0089151E /* UserViewController.swift */; };
 		9764C3AB1C63D46E0089151E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9764C3A91C63D46E0089151E /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 		2EAD249654E74B6BDFEE04C6 /* Pods-TestMVPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestMVPTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestMVPTests/Pods-TestMVPTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5570B0A5EC8F3204DA42D215 /* Pods-TestMVPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestMVPTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestMVPTests/Pods-TestMVPTests.release.xcconfig"; sourceTree = "<group>"; };
 		5E1921DA21199874000AC2CC /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		5E1921DC211999DF000AC2CC /* UserPresenterSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPresenterSpec.swift; sourceTree = "<group>"; };
 		8820F046F62CD60B15AB0FE3 /* Pods_TestMVPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestMVPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94F7866018AF933D1EF72F32 /* Pods-TestMVP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestMVP.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestMVP/Pods-TestMVP.release.xcconfig"; sourceTree = "<group>"; };
 		9764C3A21C63D46E0089151E /* TestMVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestMVP.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,6 +129,7 @@
 			children = (
 				9764C3BA1C63D46E0089151E /* UserPresenterTest.swift */,
 				9764C3BC1C63D46E0089151E /* Info.plist */,
+				5E1921DC211999DF000AC2CC /* UserPresenterSpec.swift */,
 			);
 			path = TestMVPTests;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E1921DD211999DF000AC2CC /* UserPresenterSpec.swift in Sources */,
 				9764C3BB1C63D46E0089151E /* UserPresenterTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

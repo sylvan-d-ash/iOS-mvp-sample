@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E1921DB21199874000AC2CC /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1921DA21199874000AC2CC /* NetworkError.swift */; };
 		9764C3A61C63D46E0089151E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9764C3A51C63D46E0089151E /* AppDelegate.swift */; };
 		9764C3A81C63D46E0089151E /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9764C3A71C63D46E0089151E /* UserViewController.swift */; };
 		9764C3AB1C63D46E0089151E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9764C3A91C63D46E0089151E /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 		057F8417A58776927D79B78E /* Pods_TestMVP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestMVP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EAD249654E74B6BDFEE04C6 /* Pods-TestMVPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestMVPTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestMVPTests/Pods-TestMVPTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5570B0A5EC8F3204DA42D215 /* Pods-TestMVPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestMVPTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestMVPTests/Pods-TestMVPTests.release.xcconfig"; sourceTree = "<group>"; };
+		5E1921DA21199874000AC2CC /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		8820F046F62CD60B15AB0FE3 /* Pods_TestMVPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestMVPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94F7866018AF933D1EF72F32 /* Pods-TestMVP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestMVP.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestMVP/Pods-TestMVP.release.xcconfig"; sourceTree = "<group>"; };
 		9764C3A21C63D46E0089151E /* TestMVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestMVP.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,6 +117,7 @@
 				9764C3C51C63D49C0089151E /* User.swift */,
 				9764C3C71C63D56C0089151E /* UserService.swift */,
 				9764C3C91C63D8A20089151E /* UserPresenter.swift */,
+				5E1921DA21199874000AC2CC /* NetworkError.swift */,
 			);
 			path = TestMVP;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 				9764C3C81C63D56C0089151E /* UserService.swift in Sources */,
 				9764C3A81C63D46E0089151E /* UserViewController.swift in Sources */,
 				9764C3A61C63D46E0089151E /* AppDelegate.swift in Sources */,
+				5E1921DB21199874000AC2CC /* NetworkError.swift in Sources */,
 				9764C3CA1C63D8A20089151E /* UserPresenter.swift in Sources */,
 				9764C3C61C63D49C0089151E /* User.swift in Sources */,
 			);

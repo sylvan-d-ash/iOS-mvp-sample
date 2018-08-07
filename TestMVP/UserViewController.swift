@@ -36,7 +36,7 @@ extension UserViewController: UITableViewDataSource {
 }
 
 extension UserViewController: UserView {
-
+    
     func startLoading() {
         activityIndicator?.startAnimating()
     }
@@ -57,6 +57,15 @@ extension UserViewController: UserView {
         emptyView?.isHidden = false;
     }
 
+    func showError(error: Error) {
+        tableView?.isHidden = false
+        emptyView?.isHidden = true;
+        
+        let alert = UIAlertController(title: "Error occurred", message: "\(error.localizedDescription)", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .cancel, handler: nil))
+        
+        present(alert, animated: true, completion: nil)
+    }
 
 }
 
